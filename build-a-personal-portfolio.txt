@@ -1,0 +1,75 @@
+** start of index.html **
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <link href="styles.css" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <title>Personal Portfolio</title>
+  </head>
+  <body> 
+    <nav id="navbar">
+      <h2><a href="#navbar">My Portfolio</a></h2>
+      <h2><a href="#navbar">About</a></h2>
+      <h2><a href="#navbar">Contacts</a></h2>
+    </nav>
+    <section id="welcome-section">
+      <h1>Hi,I am SILENT.<br>a web developer</h1>
+      
+    </section>
+    <section id="project-section">
+      <h2 class="project-tile">The Wheel</h2>
+      <p>On this project i built a rotating fly wheel, in to see the effects of animation, transfomations and to master the skill of that combination. To view the project <a href="#profile-link" id="profile-link" target="_blank">CLICK HERE.</a>
+    </section>
+    <div class="footer">
+    <footer class="footer1" >
+<dl>
+  <dt>Silent</dt>
+  <dd>0775496377</dd>
+  <dt>Tariro</dt>
+  <dd>0784087683</dd>
+</dl>
+    </footer>
+    </div>
+     </body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+#navbar{
+  position: fixed;
+  top: 0;
+  left:0;
+  z-index:1000;
+  display:flex;
+  justify-content:space-between;
+  background-color: gray;
+  
+  width:100vw;
+
+}
+.project-section{
+  width:100vw;
+  height:100vh;
+  border:1px solid green;
+  background-color: #f3f3f3;
+  margin: 0;
+  padding:1.5em; 
+}
+.footer{
+border:1px solid green;
+background-color: gray;
+}
+h1{
+  padding-top:70px;
+}
+@media screen and (max-width:1240px){
+  h1{
+    font-size:1.5em;
+  }
+}
+
+** end of styles.css **
+
